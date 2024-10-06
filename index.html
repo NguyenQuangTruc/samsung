@@ -8,8 +8,383 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid ps-5 pe-5">
+          <a class="navbar-brand fw-bold" href="#">SAMSUNG</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse ms-5 fw-bold" id="navbarSupportedContent" style="font-size: 13px;">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link btn text-black hover_color-black rounded-5" aria-current="page" href="#">Ưu đãi</a>
+                    <div class="container d-none position-absolute bg-white border-1 border-black border-top-0 rounded-bottom-5 p-1 z-1 bg-white sub-header">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-2 mb-4">
+                                    <span style="font-size: 14px;">Mới và nổi bật</span>
+                                    <ul class="text-decoration-none p-0">
+                                        <li class="mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">Độc quyền Samsung.com</a>
+                                        </li>
+                                        <li class="mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">Sámung Shop App</a>
+                                        </li>
+                                        <li class="mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">SmartThings</a>
+                                        </li>
+                                        <li class="d-flex mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">Mega Sales</a>
+                                            <div class="bg-danger rounded-3 text-center align-content-center text-white ps-1 pe-1 ms-1" style="font-size: 9px;" >HẤP DẪN</div>
+                                        </li>
+                                        <li class="d-flex mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">Deal điện tử- điện lạnh</a>
+                                            <div class="bg-danger rounded-3 text-center align-content-center text-white ps-1 pe-1 ms-1" style="font-size: 9px;" >HẤP DẪN</div>
+                                        </li>
+                                        <li class="d-flex mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">Flash Sale</a>
+                                            <div class="bg-danger rounded-3 text-center align-content-center text-white ps-1 pe-1 ms-1" style="font-size: 9px;" >HẤP DẪN</div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-2 mb-4">
+                                    <span style="font-size: 14px;">Deal hot</span>
+                                    <ul class="text-decoration-none p-0">
+                                        <li class="mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">Ưu đãi Z Fold6 | Flip6</a>
+                                        </li>
+                                        <li class="d-flex mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">Ưu đãi Galaxy S24 FE</a>
+                                            <div class="bg-primary rounded-3 text-center align-content-center text-white ps-1 pe-1 ms-1" style="font-size: 9px;" >MỚI</div>
+                                        </li>
+                                        <li class="d-flex mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">Ưu đãi Galaxy S24 Sesies</a>
+                                            <div class="bg-primary rounded-3 text-center align-content-center text-white ps-1 pe-1 ms-1" style="font-size: 9px;" >MỚI</div>
+                                        </li>
+                                        <li class="d-flex mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">Ưu đãi galaxy S24 saries</a>
+
+                                        </li>
+                                        <li class="d-flex mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">Tất cả ưu đãi</a>
+
+                                        </li>
+                                        <li class="d-flex mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">#YouMake</a>
+                                            <div class="bg-danger rounded-3 text-center align-content-center text-white ps-1 pe-1 ms-1" style="font-size: 9px;" >HẤP DẪN</div>
+                                        </li>
+                                        <li class="mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">Deal điện thoại</a>
+                                        </li>
+                                        <li class="mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">Deal điện tử điện lạnh</a>
+                                        </li>
+                                        <li class="mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">samsung Live</a>
+                                        </li>
+                                        <li class="mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">samsungxYou</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-2 mb-4">
+                                    <span style="font-size: 14px;">Chương trình đặc quyền</span>
+                                    <ul class="text-decoration-none p-0">
+                                        <li class="mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">Ưu đãi sinh viên</a>
+                                        </li>
+                                        <li class="mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">Ưu đãi nhân viên đối tác (EPP)</a>
+                                        </li>
+                                        <li class="mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">Ưu đãi chính phủ</a>
+                                        </li>
+                                        <li class="mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">VIP Mall</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-2 mb-4">
+                                    <span style="font-size: 14px;">Lợi thế chính hãng Samsung</span>
+                                    <ul class="text-decoration-none p-0">
+                                        <li class="mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">Khám phá lợi thế</a>
+                                        </li>
+                                        <li class="d-flex mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">thu cũ đổi mới</a>
+                                            
+                                        </li>
+                                        <li class="d-flex mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">Samsung care+</a>
+                                        </li>
+                                        <li class="d-flex mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">Samsung Rewards</a>
+
+                                        </li>
+                                        <li class="d-flex mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">Trả góp 0%</a>
+                                        </li>
+                                        <li class="d-flex mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">Cam kết giá</a>
+                                        </li>
+                                        <li class="mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">miễn phí giao hàng</a>
+                                        </li>
+                                        <li class="mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">Hướng dẫ giưới thiệu quan trọng</a>
+                                            <div class="bg-primary rounded-3 text-center align-content-center text-white ps-1 pe-1" 
+                                            style="font-size: 9px; width: 20%;" >MỚI</div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-2 mb-4">
+                                    <span style="font-size: 14px;">Samsung Experience Store</span>
+                                    <ul class="text-decoration-none p-0">
+                                        <li class="d-flex mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">Samsung West Lake</a>
+                                            <div class="bg-primary rounded-3 text-center align-content-center text-white ps-1 pe-1 ms-1" style="font-size: 9px;" >MỚI</div>
+                                        </li>
+                                        <li class="mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">Samsung 68</a>
+                                        </li>
+                                        <li class="mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">Samsung Experience Store</a>
+                                        </li>
+                                        <li class="mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">Chương trình trải nghiệm Samsung</a>
+                                        </li>
+                                        <li class="mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" href="">Hệ thống cửa hàng</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-2 mb-4">
+                                    <span style="font-size: 14px;">Đơn hàng của bạn</span>
+                                    <ul class="text-decoration-none p-0">
+                                        <li class="mt-1">
+                                            <a class="fw-normal sub-header-link hover_text-black" style="color: #3c3c3c;" href="">Tình trạng đơn hàng</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link btn text-black hover_color-black rounded-5" aria-current="page" href="#">AI</a>
+                    <div class="position-absolute d-none bg-white border-1 border-black border-top-0 rounded-bottom-5 p-1 z-1 bg-white sub-header" style="margin-left: 220px;">
+                        <ul class="text-decoration-none ps-2 pe-5 pb-4">
+                            <li class="d-flex mt-1">
+                                <a class="fw-normal sub-header-link hover_text-black" href="">AI For All</a>
+                            </li>
+                            <li class="mt-1">
+                                <a class="fw-normal sub-header-link hover_text-black" href="">Galaxy AI</a>
+                            </li>
+                            <li class="mt-1">
+                                <a class="fw-normal sub-header-link hover_text-black" href="">Samsung AI TV</a>
+                            </li>
+                            <li class="mt-1">
+                                <a class="fw-normal sub-header-link hover_text-black" href="">Bespoke AI </a>
+                            </li>
+                            <li class="mt-1">
+                                <a class="fw-normal sub-header-link hover_text-black" href="">Galaxy AI Town</a>
+                            </li>
+                            <li class="mt-1">
+                                <a class="fw-normal sub-header-link hover_text-black" href="">All AI Products</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn text-black hover_color-black rounded-5" aria-current="page" href="#">Di Động</a>
+                    <div class="position-absolute d-none bg-white border-1 border-black border-top-0 rounded-bottom-5 p-1 z-1 bg-white sub-header" style="margin-left: 255px; width: 45%;">
+                        <div class="row ps-2 pb-3">
+                            <ul class="col-3 text-decoration-none">
+                                <li class="d-flex mt-1">
+                                    <a class="fw-normal sub-header-link hover_text-black" href="">Khám phá các thiết bị di động</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="fw-normal sub-header-link hover_text-black" href="">Galaxy AI</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="fw-normal sub-header-link hover_text-black" href="">Điện thoại thông minh Galaxy</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="fw-normal sub-header-link hover_text-black" href="">Đồng hồ thông minh Galaxy </a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="fw-normal sub-header-link hover_text-black" href="">Galaxy Buds</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="fw-normal sub-header-link hover_text-black" href="">Phụ kiện galaxy</a>
+                                </li>
+                                <li class="d-flex mt-2">
+                                    <a class="fw-normal sub-header-link hover_text-black" href="">One UI</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="fw-normal sub-header-link hover_text-black" href="">Samsung Health</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="fw-normal sub-header-link hover_text-black" href="">Apps & services</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="fw-normal sub-header-link hover_text-black" href="">Why galaxy</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="fw-normal sub-header-link hover_text-black" href="">Galaxy gifts</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="fw-normal sub-header-link hover_text-black" href="">Hướng dẫn mua điện thoạ Samsung</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="fw-normal sub-header-link hover_text-black" href="">Galaxy stydio</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="fw-normal sub-header-link hover_text-black" href="">Switch to Galaxy</a>
+                                </li>
+                            </ul>
+
+                            <div class="col-1" >
+                                <div style="width: 0.1px; height: 99%; background-color: #3c3c3c;"></div>
+                            </div>
     
+                            <div class="col-8">
+                                <div class="row">
+                                    <div class="col-sm-4 position-relative">
+                                        <a style="color: #3c3c3c;" class="hover_text-black" href="">
+                                            <div style="width: 90%;">
+                                                <div class="new-label">MỚI</div>
+                                                <div class="product-card mt-3">
+                                                    <img src="https://images.samsung.com/is/image/samsung/assets/vn/2407/gnb/HOME_Buds3Pro_GNB_168x136_mo.png?$168_136_PNG$" alt="Galaxy Z Fold6" class="product-image hover_scale">
+                                                    <p class="text-nowrap text-center mt-2" style="font-size: 11px;">Galaxy Z Fold6</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-sm-4 position-relative">
+                                        <a style="color: #3c3c3c;" class="hover_text-black" href="">
+                                            <div style="width: 90%;">
+                                                <div class="new-label">MỚI</div>
+                                                <div class="product-card mt-3">
+                                                    <img src="https://images.samsung.com/is/image/samsung/assets/vn/2407/gnb/GNB_Q6_168x136_mo.png?$168_136_PNG$" alt="Galaxy Z Fold6" class="product-image hover_scale">
+                                                    <p class="text-nowrap text-center mt-2" style="font-size: 11px;">Galaxy Z Flip6</p>
+                                                </div>
+                                            </div>
+                                        </a>   
+                                    </div>
+                                
+                                    <div class="col-sm-4 position-relative">
+                                        <a style="color: #3c3c3c;" class="hover_text-black" href="">
+                                            <div style="width: 90%;">
+                                                <div class="product-card mt-3">
+                                                    <img src="https://images.samsung.com/is/image/samsung/assets/vn/2407/gnb/GNB_B6_168x136_mo.png?$168_136_PNG$" alt="Galaxy Z Fold6" class="product-image hover_scale">
+                                                    <p class="text-nowrap text-center mt-2" style="font-size: 11px;">Galaxy S24 Ultra</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        
+                                    </div>
+                                
+                                    <div class="col-sm-4 position-relative">
+                                        <a style="color: #3c3c3c;" class="hover_text-black" href="">
+                                            <div style="width: 90%;">
+                                                <div class="product-card mt-3">
+                                                    <img src="https://images.samsung.com/is/image/samsung/assets/vn/2404/gnb/GNB_E3_168x136_mo.png?$168_136_PNG$" alt="Galaxy Z Fold6" class="product-image hover_scale">
+                                                    <p class="text-nowrap text-center mt-2" style="font-size: 11px;">Galaxy S24 | S24+</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-sm-4 position-relative">
+                                        <a style="color: #3c3c3c;" class="hover_text-black" href="">
+                                            <div class="new-label">MỚI</div>
+                                            <div style="width: 90%;">
+                                                <div class="product-card mt-3">
+                                                    <img src="https://images.samsung.com/is/image/samsung/assets/vn/2404/gnb/GNB_E1E2_168x136_mo.png?$168_136_PNG$" alt="Galaxy Z Fold6" class="product-image hover_scale">
+                                                    <p class="text-nowrap text-center mt-2" style="font-size: 11px;">Galaxy S24 FE</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-sm-4 position-relative">
+                                        <a style="color: #3c3c3c;" class="hover_text-black" href="">
+                                            <div style="width: 90%;">
+                                                <div class="new-label">MỚI</div>
+                                                <div class="product-card mt-3">
+                                                    <img src="https://images.samsung.com/is/image/samsung/assets/vn/home/2024/GNB_R12_168x136_mo.png?$168_136_PNG$" alt="Galaxy Z Fold6" class="product-image hover_scale" style="height: 60px;">
+                                                    <p class="text-nowrap text-center mt-2" style="font-size: 11px;">Galaxy Tab S10 <br> Seriver</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-sm-4 position-relative">
+                                        <a style="color: #3c3c3c;" class="hover_text-black" href="">
+                                            <div style="width: 90%;">
+                                                <div class="new-label">MỚI</div>
+                                                <div class="product-card mt-3">
+                                                    <img src="https://images.samsung.com/is/image/samsung/assets/vn/home/2024/GNB_TS10-Series_168x136_mo.png?$168_136_PNG$" alt="Galaxy Z Fold6" class="product-image hover_scale">
+                                                    <p class="text-nowrap text-center mt-2" style="font-size: 11px;">Galaxy Watch Ultra</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-sm-4 position-relative">
+                                        <a style="color: #3c3c3c;" class="hover_text-black" href="">
+                                            <div style="width: 90%;">
+                                                <div class="new-label">MỚI</div>
+                                                <div class="product-card mt-3">
+                                                    <img src="https://images.samsung.com/is/image/samsung/assets/vn/2407/gnb/WatchUltra_GNB_mo_168x136.png?$168_136_PNG$" alt="Galaxy Z Fold6" class="product-image hover_scale">
+                                                    <p class="text-nowrap text-center mt-2" style="font-size: 11px;">Galaxy Buds3 Pro</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn text-black hover_color-black rounded-5" aria-current="page" href="#">TV & AV</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn text-black hover_color-black rounded-5" aria-current="page" href="#">Gia dụng</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn text-black hover_color-black rounded-5" aria-current="page" href="#">Máy tính</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn text-black hover_color-black rounded-5" aria-current="page" href="#">Màng hình hiển thị</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn text-black hover_color-black rounded-5" aria-current="page" href="#">Phụ Kiện</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn text-black hover_color-black rounded-5" aria-current="page" href="#">SmartThings</a>
+                </li>
+            </ul>
+
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
 </body>
 </html>
