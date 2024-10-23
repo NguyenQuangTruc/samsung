@@ -1,1 +1,18 @@
+.fs-13px {
+    font-size: 13px;
+}
 
+.hover_toDam:hover {
+    background-color: #910308;
+}
+
+.hover_doi-chu-sang-mau-do:hover{
+    color: #c72127 !important;
+}
+
+.hover_doi-mau-nen-xam{
+    transition: background-color 0.3s ease;
+}
+.hover_doi-mau-nen-xam:hover{
+    background-color: #f0f0f0 !important;
+}
