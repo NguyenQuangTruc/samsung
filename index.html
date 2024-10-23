@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!-- nav -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid ps-5 pe-5">
           <a class="navbar-brand fw-bold" href="#">SAMSUNG</a>
@@ -21,7 +21,7 @@
           <div class="collapse navbar-collapse ms-5 fw-bold" id="navbarSupportedContent" style="font-size: 13px;">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a  id="uuDai" class="nav-link btn text-black hover_color-black rounded-5" aria-current="page" href="#">Ưu đãi</a>
+                    <a class="nav-link btn text-black hover_color-black rounded-5" aria-current="page" href="#">Ưu đãi</a>
                     <div class="container d-none position-absolute bg-white border-1 border-black border-top-0 rounded-bottom-5 p-1 z-1 bg-white sub-header">
                         <div class="container">
                             <div class="row">
@@ -387,7 +387,67 @@
         </div>
     </nav>
 
+    <!-- ảnh sản phẩm -->
+    <div class="container-fluid">
+        <div class="container slide-show overflow-hidden">
+            <div id="list_img-sp" class="container d-flex" style="transition: 0.5s;">
+                <img class="" style="max-width: 100%;" src="https://images.samsung.com/is/image/samsung/assets/vn/home/2024/Pre-order_KV_Dotcom_H_PC1.jpg?imwidth=1366" alt="">
+                <img class="ms-5" style="max-width: 100%;" src="https://images.samsung.com/is/image/samsung/assets/vn/home/2024/1440x640_disclaimer.jpg?imwidth=1366" alt="">
+                <img class="ms-5" style="max-width: 100%;" src="https://images.samsung.com/is/image/samsung/assets/vn/home/2024/24_SW_Main_KV_Hero_PC.jpg?imwidth=2560" alt="">
+                <img class="ms-5" style="max-width: 100%;" src="https://images.samsung.com/is/image/samsung/assets/vn/home/2024/HOME_TS10-Series_Main-KV_1440x640_pc.jpg?imwidth=1366" alt="">
+            </div>  
+        </div>
+        <button id="btnBack" class="btn bg-info-subtle rounded-5 position-absolute top-50 ms-5"> < Back </button>
+        <button id="btnNext" class="btn bg-info-subtle rounded-5 position-absolute end-0 top-50 me-5">next ></button>
+        <button id="pause" class="btn bg-info-subtle rounded-5 position-absolute ms-5">pause</button>
+    </div>
+    
+    <!-- sản phẩm nổi bậc -->
+    <div class="container mt-5">
+        <div class="row">
+            <h2 class="fw-bold text-center">Sản Phẩm Nổi Bật</h2>
+        </div>
 
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <div class="row">
+                    <div class="col-2">
+                        <a class="text-center text-black text-nowrap" href="">Ưu đãi</a>
+                    </div>
+                    <div class="col-2">
+                        <a class="text-center text-black text-nowrap" href="">điện thoại </a>
+                    </div>
+                    <div class="col-2">
+                        <a class="text-center text-black text-nowrap" href="">TV & AV</a>
+                    </div>
+                    <div class="col-2">
+                        <a class="text-center text-black text-nowrap" href="">Gia dụng</a>
+                    </div>
+                    <div class="col-4">
+                        <a class="text-center text-black text-nowrap" href="">Màng hình và bộ nhớ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-6 sale-container">
+                <img src="https://images.samsung.com/is/image/samsung/assets/vn/home/2024/684x684_PC_1004.jpg?$684_684_JPG$" class="image" alt="Flash sale">
+                <div class="sale-text">
+                    <h5 class="text-center text-black">
+                        Flash sale từ 10h-14h <br>
+                        Thứ 3 - thứ 5 hàng tuần <br>
+                        <span style="font-size: 15px">Nhập MXFLASHSALE và CEFLASHSALE nhận ưu đãi</span>
+                    </h5>
+                </div>
+            </div>
+            <div class="col-6 sale-container">
+                <!-- Bạn có thể thêm nội dung vào đây -->
+            </div>
+        </div>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>

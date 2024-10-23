@@ -61,3 +61,16 @@ ul{
     /* max-width: 200px; */
 }
 
+.sale-container {
+    position: relative;
+}
+.sale-text {
+    position: absolute;
+    top: 480px;
+    left: 20px;
+    padding: 10px;
+}
+.image {
+    width: 100%;
+    border-radius: 5px;
+}
